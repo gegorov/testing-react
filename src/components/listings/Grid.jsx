@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import Single from './Single';
 
 export default class Grid extends Component {
@@ -21,6 +21,3 @@ export default class Grid extends Component {
   }
 }
 
-Grid.propTypes = {
-  items: PropTypes.array.isRequired
-};
