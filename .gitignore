@@ -65,3 +65,6 @@ typings/
 
 # build artifact
 public
+
+# snapshots
+__snapshots__
