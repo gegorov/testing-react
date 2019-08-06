@@ -8,7 +8,9 @@
     "react-tap-event-plugin": "^3.0.3"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
     "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-flowtype": "^3.13.0",
     "flow-bin": "^0.104.0",
     "react-scripts": "3.0.1",
     "react-test-renderer": "^16.8.6"

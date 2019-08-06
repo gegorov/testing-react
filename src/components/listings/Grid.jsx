@@ -1,7 +1,21 @@
+// @flow
 import React, { Component } from 'react';
 import Single from './Single';
 
-export default class Grid extends Component {
+type Item = {
+  item: {
+    id: number,
+    title: string,
+    category: string,
+    description: string,
+    link: string,
+    release_date: string,
+    views: string,
+    image: string
+  }
+}
+
+export default class Grid extends Component<Item> {
   renderList() {
     const { items } = this.props;
     return items.map(item => (
